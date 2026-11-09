@@ -7,7 +7,10 @@
   color: var(--color-text);
   transition: background-color var(--transition-base), color var(--transition-base);
 }
-
+.project-card-link {
+  color: inherit;
+  text-decoration: none;
+}
 /* Header */
 .app-header {
   background-color: var(--color-surface);
